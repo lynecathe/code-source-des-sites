@@ -1,0 +1,47 @@
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Tw cen MT', sans-serifs;
+}
+
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("image6.jpg");
+    background-size: cover;
+    background-position: center;
+    padding:0 8%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+nav .logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav .cart {
+    width: 40px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    padding-right: 40px;
+    text-align: right;
+    list-style-type: none;
+}
